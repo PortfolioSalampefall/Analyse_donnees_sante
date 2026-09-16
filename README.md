@@ -1,146 +1,227 @@
-👋 Bonjour, je suis Sallah Dia
-🎯 Data Analyst | Business Intelligence | Data Management | Artificial Intelligence
+📌 Présentation du projet
 
-🎓 Master en Intelligence Artificielle – spécialité Data Analyst
-📍 Dakar, Sénégal
+Ce projet consiste à développer un dashboard décisionnel de reporting des données de santé avec Power BI.
 
-Je suis Data Analyst spécialisée dans l'analyse, la visualisation et la valorisation des données pour accompagner la prise de décision.
+L'objectif est de transformer un ensemble de données de santé en indicateurs et visualisations interactives permettant d'explorer les caractéristiques des patients, les informations médicales et les aspects financiers associés aux prestations de santé.
 
-Mon expérience m'a permis de travailler sur des problématiques de gestion de données, digitalisation, Business Intelligence et reporting, notamment avec Power BI et les technologies Microsoft.
+🎯 Objectifs
 
-Je développe actuellement mon portfolio à travers des projets pratiques combinant Python, SQL, Power BI et Data Analytics.
+Le projet vise à :
 
-🧰 Compétences techniques
-📊 Data Analysis & Visualization
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
+Explorer et comprendre les données de santé.
+Nettoyer et préparer les données.
+Analyser les caractéristiques des patients.
+Étudier la répartition des patients par âge et sexe.
+Analyser les informations médicales.
+Étudier les établissements et prestataires de santé.
+Analyser les montants de facturation.
+Construire des KPI de suivi.
+Créer un dashboard interactif avec Power BI.
+Faciliter l'interprétation des données pour la prise de décision.
+🗂️ Données
+
+Le dataset contient différentes informations relatives aux patients et à leurs prises en charge.
+
+Les principales variables comprennent notamment :
+
+Patient
+Âge
+Sexe
+Groupe d'âge
+Condition médicale
+Médecin
+Hôpital
+Type d'admission
+Date d'admission
+Date de sortie
+Assurance
+Montant de facturation
+Médicaments
+Résultats des examens
+🔄 Méthodologie
+1. Exploration des données
+
+Une première exploration a permis d'identifier :
+
+La structure du dataset
+Le nombre de lignes et de colonnes
+Les types de données
+Les valeurs manquantes
+Les doublons
+Les valeurs aberrantes
+Les variables numériques et catégorielles
+2. Nettoyage et transformation
+
+Les données ont été préparées à l'aide de Power Query.
+
+Les opérations comprennent :
+
+Vérification des valeurs manquantes
+Vérification des doublons
+Transformation des types de données
+Conversion des variables numériques
+Nettoyage des variables textuelles
+Création de catégories d'âge
+Préparation des données pour le modèle Power BI
+
+Une attention particulière a été portée à la variable Billing Amount, afin de garantir son utilisation correcte dans les calculs et visualisations.
+
+👥 Analyse démographique
+
+L'analyse permet d'étudier la population selon :
+
+Sexe
+Âge
+Tranches d'âge
+Répartition des patients
+Conditions médicales
+
+Les tranches d'âge permettent notamment de comparer les différents groupes de patients.
+
+Exemple :
+
+18–30 ans
+31–45 ans
+46–60 ans
+61–75 ans
+76 ans et plus
+🏥 Analyse médicale
+
+Le dashboard permet d'explorer :
+
+Les principales conditions médicales.
+La fréquence des pathologies.
+La répartition des patients par condition.
+Les types d'admission.
+Les résultats des examens.
+Les traitements et médicaments.
+💰 Analyse financière
+
+Une partie du reporting est consacrée à l'analyse des coûts de santé.
+
+Les indicateurs permettent notamment d'étudier :
+
+Montant total de facturation
+Facturation moyenne
+Facturation par condition médicale
+Facturation par établissement
+Facturation par assurance
+Facturation par groupe d'âge
+📊 KPI du dashboard
+
+Les principaux KPI peuvent inclure :
+
+👥 Nombre total de patients
+🏥 Nombre d'hôpitaux
+🩺 Nombre de médecins
+💰 Facturation totale
+💵 Facturation moyenne
+📋 Nombre d'admissions
+📊 Nombre de conditions médicales
+📈 Visualisations Power BI
+
+Le dashboard utilise différents types de visualisations :
+
+Cartes KPI
+Graphiques en barres
+Graphiques en colonnes
+Donut charts
+Graphiques temporels
+Matrices
+Tableaux
+Segmenteurs (Slicers)
+Indicateurs de performance
+
+Les filtres permettent d'explorer les données selon plusieurs dimensions.
+
+🧮 DAX
+
+Des mesures DAX sont utilisées pour calculer les principaux indicateurs du reporting.
+
+Exemples :
+
+Total Patients =
+COUNTROWS(healthcare)
+Total Billing =
+SUM(healthcare[Billing Amount])
+Average Billing =
+AVERAGE(healthcare[Billing Amount])
+
+Ces mesures permettent de créer des KPI dynamiques et interactifs.
+
+🛠️ Technologies utilisées
+Technologie	Utilisation
+📊 Power BI	Reporting et visualisation
+🔄 Power Query	Nettoyage et transformation
+🔢 DAX	Calcul des indicateurs
+🐍 Python	Analyse exploratoire
+🐼 Pandas	Manipulation des données
+📈 Matplotlib / Plotly	Visualisation exploratoire
+📗 Excel / CSV	Données sources
+🔧 Git / GitHub	Versionnement
+📁 Structure du projet
+Healthcare_Analysis/
+│
+├── data/
+│   ├── healthcare.csv
+│   
+│
+├── notebooks/
+│   └── healthcare_eda.ipynb
+│
+├── powerbi/
+│   └── healthcare_dashboard.pbix
+│
+├── images/
+│   └── healthcare_dashboard.png
+│
+├── README.md
+└── requirements.txt
+📌 Résultats du projet
+
+Le dashboard permet de disposer d'une vision synthétique des données de santé à travers :
+
+Une analyse démographique des patients.
+Une analyse des conditions médicales.
+Une analyse des admissions.
+Une analyse des établissements.
+Une analyse des coûts de santé.
+Des KPI interactifs.
+Des filtres permettant une exploration dynamique.
+💡 Compétences démontrées
+
+Ce projet met en évidence mes compétences en :
+
+Data Analysis
+Exploratory Data Analysis
+Data Cleaning
 Power BI
 Power Query
 DAX
-Excel
-🗄️ Data Management & Databases
-SQL
-SQL Server
-SSIS
-SSAS
-Talend Open Studio
-Data Cleaning
-ETL / ELT
-Data Modeling
-🗺️ GIS & Data Visualization
-ArcGIS
-Cartographie interactive
-Géolocalisation
-Visualisation géographique avec Power BI
-🤖 Artificial Intelligence
-Machine Learning
-Data Mining
-Analyse exploratoire des données
-Modélisation prédictive
-⚙️ Outils & Technologies
-Git
-GitHub
-GitHub Actions
-Visual Studio Code
-Jupyter Notebook
-Google Colab
-
-📂 Projets Data Analytics
-🏥 Healthcare Data Analysis
-
-Objectif : analyser des données de santé afin d'identifier les tendances concernant les patients, les admissions, les coûts et les services hospitaliers.
-
-Technologies :
-Python Pandas Matplotlib Seaborn Power BI DAX
-
-Travaux réalisés :
-
-Nettoyage et préparation des données
-Analyse exploratoire (EDA)
-Analyse des variables numériques et catégorielles
-Analyse des corrélations
-Création de KPI
-Création d'un dashboard interactif Power BI
-Analyse des coûts et des tendances
-
-🔗 Projet : Healthcare Data Analysis
-
-📈 Sales Data Analysis
-
-Objectif : analyser les performances commerciales et identifier les principaux facteurs influençant les ventes.
-
-Technologies :
-Python SQL Power BI Excel
-
-Travaux réalisés :
-
-Nettoyage des données
-Analyse des ventes
-Analyse par produit et catégorie
-Analyse géographique
-Création de KPI
-Dashboard Power BI
-
-🔗 Projet : Sales Analysis
-
-🗺️ Interactive Project Mapping
-
-Projet réalisé dans le cadre de la digitalisation et de la gestion des données de projets.
-
-Technologies :
-Power BI ArcGIS Excel GPS
-
-Travaux réalisés :
-
-Collecte et structuration des données
-Géolocalisation des projets
-Digitalisation des informations
-Création d'une cartographie interactive
-Mise en place d'un outil de visualisation destiné aux équipes terrain et à l'administration
-💼 Expérience professionnelle
-GIZ Sénégal
-
-Data Management / Digitalisation
-
-Gestion et structuration des données
-Digitalisation de l'information
-Développement de solutions de reporting avec Power BI
-Création de cartographies interactives
-Automatisation et amélioration des processus de gestion des données
-CER2E
-
-Power BI Specialist – Stage
-
-Préparation et transformation des données
-Création de dashboards Power BI
-Développement de mesures DAX
-Analyse et visualisation des données
-🎓 Formation
-
-Master en Intelligence Artificielle – spécialité Data Analyst
-Dakar Institute of Technologies — 2024
-
-Licence en Mathématiques Appliquées et Informatique
-UCHK — 2021
-
-📌 Domaines d'intérêt
-Data Analytics
-Business Intelligence
-Data Management
-Artificial Intelligence
-Machine Learning
 Data Visualization
-Energy & Industry
-International Development
-📫 Me contacter
+KPI Development
+Business Intelligence
+Data Storytelling
+Python
+Pandas
+Analyse décisionnelle
+🚀 Perspectives d'amélioration
 
-💼 LinkedIn : Mon profil LinkedIn
-🐙 GitHub : Mon GitHub
-📧 Email : Mon email
+Le projet pourrait être enrichi avec :
 
-🚀 Objectif
+Prévision du nombre d'admissions.
+Analyse prédictive des coûts.
+Détection des anomalies de facturation.
+Segmentation des patients.
+Analyse de la durée de séjour.
+Modèles Machine Learning.
+Automatisation de l'actualisation des données.
+Mise en place d'un pipeline ETL.
+👤 Auteur
 
-Construire des solutions data-driven permettant de transformer les données en informations fiables, compréhensibles et exploitables pour améliorer la prise de décision.
+Sallah DIA
+Data Analyst | BI Analyst | Power BI Specialist
+
+Stack : Power BI · SQL · Python · DAX · Power Query · Data Analysis · IA
+
+⭐ Ce projet fait partie de mon portfolio Data Analyst.
