@@ -18,8 +18,8 @@ Analyser les montants de facturation.
 Construire des KPI de suivi.
 Créer un dashboard interactif avec Power BI.
 Faciliter l'interprétation des données pour la prise de décision.
-🗂️ Données
 
+🗂️ Données
 Le dataset contient différentes informations relatives aux patients et à leurs prises en charge.
 
 Les principales variables comprennent notamment :
@@ -38,6 +38,7 @@ Assurance
 Montant de facturation
 Médicaments
 Résultats des examens
+
 🔄 Méthodologie
 1. Exploration des données
 
@@ -85,8 +86,8 @@ Exemple :
 46–60 ans
 61–75 ans
 76 ans et plus
-🏥 Analyse médicale
 
+🏥 Analyse médicale
 Le dashboard permet d'explorer :
 
 Les principales conditions médicales.
@@ -107,8 +108,8 @@ Facturation par condition médicale
 Facturation par établissement
 Facturation par assurance
 Facturation par groupe d'âge
-📊 KPI du dashboard
 
+📊 KPI du dashboard
 Les principaux KPI peuvent inclure :
 
 👥 Nombre total de patients
@@ -118,8 +119,8 @@ Les principaux KPI peuvent inclure :
 💵 Facturation moyenne
 📋 Nombre d'admissions
 📊 Nombre de conditions médicales
-📈 Visualisations Power BI
 
+📈 Visualisations Power BI
 Le dashboard utilise différents types de visualisations :
 
 Cartes KPI
@@ -135,7 +136,6 @@ Indicateurs de performance
 Les filtres permettent d'explorer les données selon plusieurs dimensions.
 
 🧮 DAX
-
 Des mesures DAX sont utilisées pour calculer les principaux indicateurs du reporting.
 
 Exemples :
@@ -159,6 +159,7 @@ Technologie	Utilisation
 📈 Matplotlib / Plotly	Visualisation exploratoire
 📗 Excel / CSV	Données sources
 🔧 Git / GitHub	Versionnement
+
 📁 Structure du projet
 Healthcare_Analysis/
 │
@@ -177,8 +178,8 @@ Healthcare_Analysis/
 │
 ├── README.md
 └── requirements.txt
-📌 Résultats du projet
 
+📌 Résultats du projet
 Le dashboard permet de disposer d'une vision synthétique des données de santé à travers :
 
 Une analyse démographique des patients.
@@ -188,8 +189,8 @@ Une analyse des établissements.
 Une analyse des coûts de santé.
 Des KPI interactifs.
 Des filtres permettant une exploration dynamique.
-💡 Compétences démontrées
 
+💡 Compétences démontrées
 Ce projet met en évidence mes compétences en :
 
 Data Analysis
@@ -205,8 +206,8 @@ Data Storytelling
 Python
 Pandas
 Analyse décisionnelle
-🚀 Perspectives d'amélioration
 
+🚀 Perspectives d'amélioration
 Le projet pourrait être enrichi avec :
 
 Prévision du nombre d'admissions.
@@ -217,8 +218,8 @@ Analyse de la durée de séjour.
 Modèles Machine Learning.
 Automatisation de l'actualisation des données.
 Mise en place d'un pipeline ETL.
-👤 Auteur
 
+👤 Auteur
 Sallah DIA
 Data Analyst | BI Analyst | Power BI Specialist
 
